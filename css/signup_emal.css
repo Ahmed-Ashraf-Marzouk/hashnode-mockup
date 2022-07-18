@@ -1,0 +1,22 @@
+.button-login{
+    width: 300px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 100px;
+}
+.contain{
+   margin-top: 100px;
+   margin-left: 200px;
+}
+
+.quote{
+    margin-top: 40px;
+}
+.hashnode-img{
+    width: 200px;
+}
+
+.title-bar{
+    margin-top: 10px;
+    text-align: center;
+}
