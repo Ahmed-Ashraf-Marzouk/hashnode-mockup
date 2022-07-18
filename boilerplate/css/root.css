@@ -50,12 +50,12 @@
 html, body
 {
     height: 100%;
+    font-size: 10px;
+    line-height: 1.5;
 }
 
 body
 {
-    font-size: 10px;
-    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
 
