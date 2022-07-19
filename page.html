@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Boilerplate</title>
+
+    <!-- Common imports -->
+    <style id="imports"></style>
+    <!-- END of Common imports -->
+    <link href="css/root.css" rel="stylesheet" />
+    <link href="css/sbr.css" rel="stylesheet" />
+    <script src="js/import.js"></script>
+  </head>
+
+  <body>
+    <!-- Structure -->
+    <!-- 
+
+        // *Heading* Trending articles
+        - Name 
+        - Button (Explore more) 
+
+        // *Title* to choose time 
+        < 1 week, 1 month, 3 months, 6 months >
+
+        // *Component* for articles 
+        - Image
+        - Title 
+        - Author 
+        - Likes 
+        - Comments
+
+        // *Show more* 
+
+     -->
+    <div id="side-bar-right">
+      <div id="side-bar-right-container">
+        <div id="sbr-heading">
+          <h2 id="sbr-heading-title">Trending articles</h2>
+          <div id="sbr-heading-button">
+            <a id="sbr-heading-button-link" href="index.htm">Explore more</a>
+          </div>
+          <div id="sbr-heading-up-arrow">
+            <span id="sbr-heading-up-arrow-symbol">&#8249;</span>
+          </div>
+        </div>
+        <div id="sbr-time">
+          <ul id="time-list">
+            <li class="time-list-item">1 week</li>
+            <li class="time-list-item">1 month</li>
+            <li class="time-list-item">3 months</li>
+            <li class="time-list-item">6 months</li>
+          </ul>
+        </div>
+        <div id="sbr-articles">
+          <div class="sbr-article">
+            <div class="sbr-article-img-title-container">
+              <img class="sbr-article-img" src="" alt="" />
+              <h4 class="sbr-article-title"></h4>
+            </div>
+            <p class="sbr-article-author"></p>
+            <div class="sbr-article-likes-comments-container">
+              <div class="sbr-article-likes">
+                <span class="sbr-article-likes-count">3</span>
+              </div>
+              <div class="sbr-article-comments">
+                <span class="sbr-article-comments-count">5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sbr-article">
+            <div class="sbr-article-img-title-container">
+              <img class="sbr-article-img" src="" alt="" />
+              <h3 class="sbr-article-title"></h3>
+            </div>
+            <p class="sbr-article-author"></p>
+            <div class="sbr-article-likes-comments-container">
+              <div class="sbr-article-likes">
+                <span class="sbr-article-likes-count">3</span>
+              </div>
+              <div class="sbr-article-comments">
+                <span class="sbr-article-comments-count">5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sbr-show"></div>
+      </div>
+    </div>
+    <script src="js/sbr.js"></script>
+  </body>
+</html>

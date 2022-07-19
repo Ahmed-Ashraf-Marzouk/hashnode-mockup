@@ -1,0 +1,129 @@
+:root {
+    --time-item-border-radius : 10px;
+  }
+  
+
+
+#side-bar-right{
+    width: 25%;
+    background-color: rgba(237, 241, 245, 0.8);
+}
+
+#side-bar-right-container{
+    padding: 5%;
+    padding-right: 10%;
+}
+
+#sbr-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sbr-heading-title{
+    font-family: var(--heading);
+    font-size: 1rem;
+    margin-top: 5%;
+}
+
+#sbr-heading-button{
+    font-family: var(--normal);
+    font-size: 0.9rem;
+    margin-top: 3%;
+    padding: 0.25rem 0.5rem;
+    height: 90%;
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 1); /* hover color rgba(229, 231, 235, 1); */
+
+}
+
+#sbr-heading-button:hover{
+    background-color:rgba(229, 231, 235, 1);
+}
+
+#sbr-heading-button-link{
+    text-decoration: none;
+    color:black;
+}
+
+#sbr-heading-up-arrow{
+    transform: rotate(90deg);
+    margin-top: 4%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border: 1px solid rgba(237, 241, 245, 0.8);
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    opacity: 50%;
+}
+
+#sbr-heading-up-arrow:hover{
+    border: 1px solid rgba(229, 231, 235, 1);
+    background-color:rgba(215, 216, 218, 0.8);
+}
+
+#sbr-heading-up-arrow-symbol{
+    font-size: 2rem;
+    position: relative;
+    top: -17px
+}
+
+#time-list{
+    font-family: var(--normal);
+    font-size: 0.9rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    padding-top: 2%;
+    /* padding-bottom: 5%; */
+    margin-left: 0px;
+    border-bottom: 1px solid rgb(205, 204, 204);
+}
+
+.time-list-item{
+    padding: 1.5%;
+    height: 37px;
+    border-top: 1px solid transparent;
+    border-top-left-radius: var( --time-item-border-radius) ;
+    border-top-right-radius: var(--time-item-border-radius) ;
+}
+.time-list-item:hover{
+    /* position: absolute; */
+    background-color: rgb(215, 215, 215);
+    border-top: 1px solid transparent;
+    border-top-left-radius: var(--time-item-border-radius) ;
+    border-top-right-radius: var(--time-item-border-radius) ;
+}
+
+#sbr-articles{
+    background-color: white;
+
+}
+.sbr-article-img-title-container{
+    display: flex;
+    padding: 3% ;
+
+}
+
+.sbr-article-img{
+    width:40px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.sbr-article-title{
+    font-family: Manrope;
+    font-size: 1.05rem;
+    padding-left: 3%;
+}
+
+.sbr-article-author{
+    font-family: Manrope;
+    font-size: 1rem;
+    padding-left: 19%;
+    color:rgb(188, 188, 188);
+}
+
