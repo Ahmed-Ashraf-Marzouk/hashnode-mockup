@@ -52,7 +52,7 @@
     height: 25px;
     width: 25px;
     text-align: center;
-    border: 1px solid rgba(237, 241, 245, 0.8);
+    border: 1px solid transparent;
     background-color:rgba(255, 255, 255, 0.8);
     border-radius: 50%;
     opacity: 50%;
@@ -60,6 +60,7 @@
 
 #sbr-heading-up-arrow:hover{
     border: 1px solid rgba(229, 231, 235, 1);
+    cursor:pointer;
     background-color:rgba(215, 216, 218, 0.8);
 }
 
@@ -93,12 +94,16 @@
     /* position: absolute; */
     background-color: rgb(215, 215, 215);
     border-top: 1px solid transparent;
+    cursor:pointer;
     border-top-left-radius: var(--time-item-border-radius) ;
     border-top-right-radius: var(--time-item-border-radius) ;
 }
 
 #sbr-articles{
     background-color: white;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 2%;
+
 
 }
 .sbr-article-img-title-container{
@@ -121,9 +126,60 @@
 }
 
 .sbr-article-author{
+    display: relative;
+    left: 50%;
     font-family: Manrope;
     font-size: 1rem;
     padding-left: 19%;
+    /* padding-top: -10%; */
     color:rgb(188, 188, 188);
 }
 
+.sbr-article-likes-comments-container{
+    display: flex;
+    font-family: Manrope;
+    font-size: 0.9rem;
+}
+
+.sbr-article-likes{
+    margin-left: 18%;
+    opacity: 50%;
+
+}
+
+.sbr-article-comments{
+    width: 15%;
+    margin-left: 5%;
+    opacity: 50%;
+
+}
+
+.sbr-article::after{
+    content:'';
+    display: block;
+    background-color: gray;
+    opacity: 50%;
+    width: 260px;
+    height: 1px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+
+.sbr-article:nth-of-type(2):after{
+    content:'';
+    display: block;
+    background-color: transparent;
+    opacity: 50%;
+    width: 260px;
+    height: 1px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.time-list-item{
+    border-bottom: 1px solid transparent;
+
+
+    
+}
